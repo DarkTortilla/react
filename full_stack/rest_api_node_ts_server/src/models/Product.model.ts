@@ -16,8 +16,10 @@ class Product extends Model{
     declare price:number
 
     @Column({
-        type:DataType.BOOLEAN
+        type:DataType.BOOLEAN,
+        defaultValue: true
     })
     declare availability:boolean
+    
 }
 export default Product

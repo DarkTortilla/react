@@ -196,8 +196,8 @@ router.put('/:id',
 
 /**
  * @swagger
- * /api/products/{id}
- * patch:
+ * /api/products/{id}:
+ *  patch:
  *    summary: Update a product availability
  *    tags: 
  *       - Products
@@ -230,8 +230,8 @@ router.patch('/:id',
 
 /**
  * @swagger
- * /api/products/{id}
- * delete:
+ * /api/products/{id}:
+ *  delete:
  *    summary: delete a product as she deleted me of her life
  *    tags: 
  *       - Products
