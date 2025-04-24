@@ -14,7 +14,6 @@ export default function useOrder() {
             const updatedOder= order.map(orderItem=>
                 orderItem.id===item.id ? {...orderItem, quantity:orderItem.quantity+1}: orderItem )
             setOrder(updatedOder)
-        
             console.log('firus')
         }
         else {
